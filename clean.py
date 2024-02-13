@@ -2,6 +2,7 @@ import sys
 import pandas as pd
 
 def clean_data(in1, in2, out1):
+
     df1 = pd.read_csv(in1)
     df2 = pd.read_csv(in2)
 
